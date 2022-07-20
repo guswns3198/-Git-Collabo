@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: gray;
+  }
+  
+  section {
+    width: 100%;
+    height: 80vh;
+    background-color:bisque;
+  }
+  
+  footer {
+    width: 100%;
+    height: 10vh;
+    background-color: yellow;
+  }
+  
+  .logoTitle {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 30px;
+    flex-grow: 1;
+  }
+  
+  
+  #naviBar {
+    display: flex;
+    flex-direction: row;
+    color: pink;
+    padding: 0px 10px 0px 400px;
+    flex-grow: 1;
+  }
+  
+  .menu {
+    display: flex;
+    padding: 0px 0px 0px 50px;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .screen{
+    padding: 30px;
+  }
+
+  .main{
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+    padding-bottom: 70px;
+  }
+
+  h1{
+    margin-top: 15px;
+  }
+
+  .img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+  }
+
+  br{
+    clear:both;
+  }
+
+  .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding-left: 50px;
+    font-family: 'OTWelcomeRA';
+    font-size: 150%;
+  }
+
+  .option{
+    font-family: 'OTWelcomeRA';
+    font-size: 130%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
