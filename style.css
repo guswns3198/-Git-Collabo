@@ -1,20 +1,48 @@
+@font-face {
+  font-family: 'EF_WAKEUP';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_WAKEUP.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
+body {
+  overflow: hidden;
+}
+
+#logo {
+  display: flex;
+  padding-left: 20px;
+  width: 11%;
+  cursor: pointer;
+}
+
+.logoTitle {
+  display: flex;
+  font-family: "EF_WAKEUP";
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  position: relative;
+  top: -0.2rem;
+  -webkit-text-stroke: 1.5px black;
+}
 
 header {
   display: flex;
   width: 100%;
-  height: 10vh;
-  background-color: gray;
+  height: 15vh;
+  background-color: lightgray;
 }
 
-section {
-  width: 100%;
-  height: 80vh;
+#screen {
+  width: 100vw;
+  height: 75vh;
   background-color: blue;
 }
 
@@ -31,18 +59,62 @@ footer {
   flex-grow: 1;
 }
 
-
-#naviBar {
-  display: flex;
-  flex-direction: row;
-  color: pink;
-  padding: 0px 10px 0px 400px;
-  flex-grow: 1;
+#clock {
+  display: flex;;
+  position: relative;
+  padding-right: 150px;
+  align-items: center;
+  color: rgb(0, 72, 255);
 }
 
-.menu {
+/* #nav {
   display: flex;
-  padding: 0px 0px 0px 50px;
-  align-items: center;
-  flex-grow: 1;
+  flex-direction: column;
+  width: 30%;
+} */
+
+.menuOne {
+  display: flex;
+  width: 6%;
+  height: 30%;
+  display: block;
+  position: relative;
+  top: 36%;
+  left: -12%;
+  color: rgb(255, 85, 113);
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menuTwo {
+  display: flex;
+  width: 6%;
+  height: 30%;
+  display: block;
+  position: relative;
+  top: 36%;
+  left: -9%;
+  color: rgb(255, 85, 113);
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menuThree {
+  display: flex;
+  width: 7%;
+  height: 30%;
+  display: block;
+  position: relative;
+  top: 35%;
+  left: -6%;
+  color: rgb(255, 85, 113);
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+img {
+  size: 50px;
 }
